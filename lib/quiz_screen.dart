@@ -96,7 +96,7 @@ class _QuizScreenState extends State<QuizScreen> {
             future: quiz,
             builder: (BuildContext context, AsyncSnapshot snapshot) {
               if (snapshot.hasData) {
-                data = snapshot.data; // Assigning snapshot.data to data variable
+                data = snapshot.data; 
 
                 if (isLoaded == false) {
                   optionsList = [
